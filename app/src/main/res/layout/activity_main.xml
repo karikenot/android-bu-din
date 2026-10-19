@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF9F9">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THE TALKING BREW"
+        android:background="#3DA5EC"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Our Coffe Shop"
+        android:textSize="16sp"
+        android:textColor="#555555"
+        android:layout_below="@id/header_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:id="@+id/img_coffee_machine"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/mesinkopi"
+        android:layout_below="@id/txt_welcome"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/txt_brand_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CoffeBrew"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#4A3B32"
+        android:layout_below="@id/img_coffee_machine"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"/>
+
+    <!-- 5. Subtitle Premium Coffe Shop -->
+    <TextView
+        android:id="@+id/txt_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREMIUM COFFE SHOP"
+        android:textSize="12sp"
+        android:textColor="#777777"
+        android:layout_below="@id/txt_brand_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"/>
+
+    <!-- 6. Quote Text -->
+    <TextView
+        android:id="@+id/txt_quote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="I have measured out my life\nwith coffe spoons"
+        android:gravity="center"
+        android:textSize="14sp"
+        android:textColor="#555555"
+        android:layout_below="@id/txt_subtitle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"/>
+
+    <!-- 7. Ikon Buku / Lampu -->
+    <ImageView
+        android:id="@+id/img_book_icon"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:src="@drawable/menuic"
+        android:layout_below="@id/txt_quote"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"/>
+
+    <!-- 8. Tombol ENTER -->
+    <Button
+        android:id="@+id/btn_enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ENTER"
+        android:backgroundTint="#6242AA"
+        android:textColor="#FFFFFF"
+        android:paddingHorizontal="45dp"
+        android:layout_below="@id/img_book_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>

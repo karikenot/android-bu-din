@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF9F9">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaksi Pembelian"
+        android:background="#3DA5EC"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/txt_kemasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_title"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Kemasan"
+        android:textColor="#001DC7"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/rgKemasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="15dp">
+
+        <RadioButton
+            android:id="@+id/rbHot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Hot" />
+
+        <RadioButton
+            android:id="@+id/rbIce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Ice" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt_jeniskopi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_title"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Jenis Kopi"
+        android:textColor="#000212"
+        android:textSize="20sp"/>
+
+    <CheckBox
+        android:id="@+id/cbRobusta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Robusta" />
+
+    <CheckBox
+        android:id="@+id/cbArabika"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arabika" />
+
+    <CheckBox
+        android:id="@+id/cbGayo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gayo" />
+
+    <TextView
+        android:id="@+id/tvTotalBayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Bayar :"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="24dp">
+
+
+        <Button
+            android:id="@+id/btnHitung"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="4dp"
+            android:text="Hitung" />
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/btnKirim"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="4dp"
+            android:text="Kirim" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:padding="24dp">
+
+    <TextView
+        android:id="@+id/header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="THE TALKING BREW"
+        android:background="#3DA5EC"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:id="@+id/txt_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/header_title"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="BMTI Coffe Shop"
+        android:textColor="#555555"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <TableRow android:layout_marginBottom="10dp">
+            <TextView android:text="Jumlah Beli" android:textSize="13sp" />
+            <TextView android:text=" : " android:textSize="13sp" />
+            <TextView android:id="@+id/tvJumlahBeli" android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="10dp">
+            <TextView android:text="Kemasan" android:textSize="13sp" />
+            <TextView android:text=" : " android:textSize="13sp" />
+            <TextView android:id="@+id/tvKemasan" android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="10dp">
+            <TextView android:text="Jenis Kopi" android:textSize="13sp" />
+            <TextView android:text=" : " android:textSize="13sp" />
+            <TextView android:id="@+id/tvJenisKopi" android:textSize="13sp" />
+        </TableRow>
+
+        <TableRow android:layout_marginBottom="10dp">
+            <TextView android:text="Jumlah Bayar" android:textSize="13sp" />
+            <TextView android:text=" : " android:textSize="13sp" />
+            <TextView android:id="@+id/tvJumlahBayar" android:textSize="13sp" />
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>
