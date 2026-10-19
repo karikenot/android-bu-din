@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <TextView
+        android:fontFamily="monospace"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A67343"
+        android:padding="20dp"
+        android:text="THE TALKING BREW"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Welcome to Our Coffe Shop"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="221dp"
+        android:layout_height="152dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/logokopi" />
+
+    <TextView
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="CoffeBrew"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PREMIUM COFFE SHOP"
+        android:textColor="#777777"
+        android:textSize="15sp" />
+
+    <TextView
+        android:fontFamily="monospace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:text="I have measured out my life\nwith coffe spoons"
+        android:textSize="17sp" />
+
+    <Button
+        android:fontFamily="monospace"
+        android:id="@+id/btnEnter"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#A67343"
+        android:text="ENTER"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
